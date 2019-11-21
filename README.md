@@ -1,3 +1,21 @@
-# cs200-Patricia
+# cs2100-trie
 
-En base al codigo realizado en el Trie, hacer una funcion llamada  convertToPatricia(), la cual debera convertir el trie actual y retornar un trie patricia.
+Implementar la estructura trie. 
+
+```
+class TrieNode {
+public:
+  map<char,TrieNode*> children;
+  bool is_node;
+}
+```
+___
+# Funciones
+
+- void insert(string)
+- bool search_by_prefix(string)
+- bool search_by_complete_word(string)
+- void delete(string)
+- void print()
+
+# =)
